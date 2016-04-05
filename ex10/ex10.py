@@ -12,4 +12,7 @@ I'll do a list:
 print tabby_cat
 print persian_cat
 print backslash_cat
-print fat_cat
+print '%r' % fat_cat
+
+print('%r' % "single quore \'double quote\"")
+print('%r' % "double quote \"single quore\'")
